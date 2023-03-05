@@ -1,7 +1,9 @@
+import ListingRecords from "../components/ListingRecords";
+
 const Books = () => {
     return (
         <div>
-            <p>Books</p>
+            <ListingRecords/>
         </div>
     )
 }
