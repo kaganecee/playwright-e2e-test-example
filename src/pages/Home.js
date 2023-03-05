@@ -1,8 +1,9 @@
-const Home = (props) => {
+import FormExample from "../components/FormExample";
+
+const Home = () => {
     return (
         <div>
-            <a href="books">Books</a>
-            <p>{props.title}</p>
+            <FormExample/>
         </div>
     )
 }
