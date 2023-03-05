@@ -1,16 +1,16 @@
 const FormExample = () => {
     const handleSubmit = (event) => {
         localStorage.setItem('books',JSON.stringify({
-            name : event.target.firstname.value,
-            lastName : event.target.lastname.value,
-            country : event.target.country.value,
+            bookname : event.target.bookname.value,
+            authorName : event.target.authorname.value,
+            country : event.target.country.value,   
             subject : event.target.subject.value
         }))
     }
     return ( 
         <div className="container d-flex flex-column">
             <h5>Add new books to storage.</h5>
-            <form className="d-flex flex-column" onSubmit={(event) => handleSubmit(event)}>
+            <form className="d-flex flex-column myform" action="/books" onSubmit={(event) => handleSubmit(event)}>
 
                 <label htmlFor="fname">Book Name</label>
                 <input type="text" id="fname" name="bookname" placeholder="Your name.."/>
