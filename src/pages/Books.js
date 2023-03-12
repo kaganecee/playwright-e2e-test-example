@@ -1,12 +1,12 @@
-import Header from "../components/Header";
-import ListingBooks from "../components/ListBooks";
+import Header from '../components/Header';
+import ListBooks from '../components/ListBooks';
 
-const Books = () => {
-    return (
-        <div>
-            <Header/>
-            <ListingBooks/>
-        </div>
-    )
+function Books() {
+  return (
+    <div>
+      <Header />
+      <ListBooks />
+    </div>
+  );
 }
 export default Books;
