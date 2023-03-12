@@ -1,9 +1,11 @@
-import FormExample from "../components/FormExample";
+import Form from "../components/Form";
+import Header from "../components/Header";
 
 const Home = () => {
     return (
         <div>
-            <FormExample/>
+            <Header/>
+            <Form/>
         </div>
     )
 }
