@@ -1,11 +1,11 @@
 import Header from "../components/Header";
-import ListingRecords from "../components/ListingRecords";
+import ListingBooks from "../components/ListBooks";
 
 const Books = () => {
     return (
         <div>
             <Header/>
-            <ListingRecords/>
+            <ListingBooks/>
         </div>
     )
 }
