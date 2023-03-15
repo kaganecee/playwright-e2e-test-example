@@ -22,7 +22,7 @@ function Form() {
         </div>
         <div className="d-flex flex-column">
           <label htmlFor="lname">Page Number</label>
-          <input type="text" id="page-number" name="pagenumber" placeholder="Page number.." />
+          <input type="text" maxLength={3} id="page-number" name="pagenumber" placeholder="Page number.." />
         </div>
         <div className="d-flex flex-column">
           <label htmlFor="genre">Genre</label>

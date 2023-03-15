@@ -2,7 +2,7 @@ function ListBooks() {
   const getBooksData = () => localStorage.getItem('books');
   const books = JSON.parse(getBooksData());
   return (
-    <div className="container d-flex justify-content-center flex-column pt-5 gap-2">
+    <div id="record" className="container d-flex justify-content-center flex-column pt-2 gap-2">
       <h1>Last Book Record</h1>
       <div className="d-flex flex-column bookCard">
         <p id="author-name">{books?.authorName}</p>
